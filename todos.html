@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="border-company">
+                <a class="navbar-brand" href="#">Sukses Pet Care</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="index.html">HOME</a>
+                    <a class="nav-link" href="galeri.html">GALERI</a>
+                    <a class="nav-link" href="portofolio.html">PORTOFILIO</a>
+                    <a class="nav-link" href="blog.html">BLOG</a>
+                    <a class="nav-link" href="about.html">ABOUT US</a>
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                    <a class="nav-link  active" href="todos.html">TODOS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+       <!-- JUMBOTRON -->
+       <div class="jumbotron jumbotron-fluid bg-dark2">
+        <div class="container">
+            <div class="row">
+                <div class="col-9"></div>
+                <div class="col-3">
+                    <h1 class="display-4 bg-success2 text-center">TODOS</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Garis -->
+    <div class="garis">
+        <div class="row">
+            <div class="col-5">
+                <hr>
+            </div>
+            <div class="col-2">
+                <h3 class="bg-dark2 text-center text-white">TODO APP</h3>
+            </div>
+            <div class="col-5">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <center>
+            <div class="row  todos-input">
+                <div class="col-6 text-right">
+                    <input id="input" type="text" class="form-control" placeholder="Add a Todo.." aria-label="Search"
+                        aria-describedby="basic-addon1">
+                </div>
+                <div class="col-6 text-left">
+                    <button id="add" class="btn btn-success2">Add</button>
+                    <!-- <button onclick="clearItems()" class="btn btn-warning">Clear</button> -->
+                    <button onclick="myFunction()" class="btn btn-warning">Clear</button>
+                </div>
+            </div>
+        </center>
+        <ul id="ul"></ul>
+    </div>
+    <br><br><br><br><br>
+
+    <!-- Footer -->
+    <div class="footer bg-dark2">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="footer-text text-light">
+                        <h3>CONTACT INFO</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/address.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light">Jl. Halim Perdana Kusuma, Jakarta Timur</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/email.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light">suksespets@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/phone.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light">+62 818-0876-7894</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <div class="footer-text text-light">
+                    </div>
+                    <p class="text-light">
+                        <b>Your Trust is Our Responsibility</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <p class="text-light footer-text2 text-center">&copy; Copyright - Tito Pamungkas 2020</p>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>

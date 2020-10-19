@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="border-company">
+                <a class="navbar-brand" href="#">Sukses Pet Care</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="index.html">HOME</a>
+                    <a class="nav-link" href="galeri.html">GALERI</a>
+                    <a class="nav-link active" href="portofolio.html">PORTOFILIO</a>
+                    <a class="nav-link" href="blog.html">BLOG</a>
+                    <a class="nav-link" href="about.html">ABOUT US</a>
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                    <a class="nav-link" href="todos.html">TODOS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron jumbotron-fluid bg-dark2">
+        <div class="container">
+            <div class="row">
+                <div class="col-9"></div>
+                <div class="col-3">
+                    <h1 class="display-4 bg-success2 text-center">Portofolio</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Garis -->
+    <div class="garis">
+        <div class="row">
+            <div class="col-5">
+                <hr>
+            </div>
+            <div class="col-2">
+                <h3 class="bg-dark2 text-center text-white">PORTOFOLIO</h3>
+            </div>
+            <div class="col-5">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT -->
+    <div class="container-fluid">
+ 		<center>
+			<div id="myBtnContainer">
+			  <button class="btn1 active" onclick="filterSelection('all')"> Show all</button>
+			  <button class="btn1" onclick="filterSelection('tips')"> Tips</button>
+			  <button class="btn1" onclick="filterSelection('clean')"> Clean</button>
+			  <button class="btn1" onclick="filterSelection('health')"> Health</button>
+			</div>
+		</center>
+		<br><br>
+        <div class="row">
+            <div class="col-4">
+			<div class="filterDiv tips">
+                <div class="card bg-primary portofolio">
+                    <a href="#"><img src="assets/porto1.jpg" height="200" class="card-img-top img-hover" alt=""></a>
+                    <div class="card-body bg-dark2">
+                        <p class="card-text text-light" align="justify">Kucing adalah salah satu hewan peliharaan yang paling disukai manusia. Selain lucu, perilaku kucing juga sangat menggemaskan. 
+                            Namun, tahukah Anda cara merawatnya? Semua hewan memiliki sifat sensitif yang harus dipahami manusia. Jika Anda seorang pemula dan ingin tahu tentang cara merawat kucing, 
+                            berikut adalah beberapa tips dasar dari Boldsky.com.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+                <div class="col-4">
+                <div class="filterDiv tips">
+                    <div class="card bg-primary portofolio">
+                        <a href="#"><img src="assets/porto7.jpg" height="200" class="card-img-top img-hover" alt=""></a>
+                        <div class="card-body bg-dark2">
+                            <p class="card-text text-light" align="justify">
+                                Grooming sangat penting untuk dilakukan pada kucing dan anjing kesayangan kita, apalagi jika kucing yang kita pelihara memiliki bulu yang panjang.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div class="col-4">
+			<div class="filterDiv tips">
+                <div class="card bg-primary portofolio">
+                    <a href="#"><img src="assets/porto2.jpg" height="200" class="card-img-top img-hover" alt=""></a>
+                    <div class="card-body bg-dark2">
+                        <p class="card-text text-light" align="justify">
+                            Kucing tidak harus keluar rumah untuk menjadi bahagia. Salah satu kunci untuk menjaga kucing rumahan bahagia dan puas adalah dengan memberinya 
+                            hiburan dan stimulasi secara teratur. Selain olahraga dan stimulasi mental, kucing rumahan membutuhkan lingkungan yang aman untuk hidup, makanan dan minuman, serta perawatan 
+                            tubuh dan kesehatan rutin. Jika Anda bisa menyediakan semua ini untuk kucing Anda, ia akan hidup bahagia dan sehat di dalam ruangan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div></div>
+            
+        <div class="row">
+            <div class="col-4">
+			<div class="filterDiv clean">
+                <div class="card bg-primary portofolio">
+                    <a href="#"><img src="assets/porto3.jpg" height="200" class="card-img-top img-hover" alt=""></a>
+                    <div class="card-body bg-dark2">
+                        <p class="card-text text-light" align="justify">
+                            Kucing membutuhkan privasi saat buang air. Tempatkan kotak pasir di tempat sepi sehingga si kucing tidak akan terganggu 
+                            atau ketakutan oleh suara yang tiba-tiba muncul (seperti suara mesin cuci). Jika Anda memiliki beberapa kucing, 
+                            Anda membutuhkan satu kotak pasir untuk setiap kucing. Ada baiknya Anda memiliki kotak pasir cadangan. 
+                            Jadi, jika Anda memiliki lima ekor kucing, sebaiknya sediakan enam buah kotak pasir.</p>
+                    </div>
+                </div>
+            </div>
+			</div>
+            <div class="col-4">
+			<div class="filterDiv clean">
+                <div class="card bg-primary portofolio">
+                    <a href="#"><img src="assets/porto4.jpg" height="200" class="card-img-top img-hover" alt=""></a>
+                    <div class="card-body bg-dark2">
+                        <p class="card-text text-light" align="justify">
+                            Jika kamu memiliki kandang yang biasa digunakan untuk mengurung hewan peliharan anda setiap malam.
+                            Semprotkan setiap bagian kandang dan bersihkan dengan kain bersih atau cuci dengan sabun dan air, plus 
+                            disinfektan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+                <div class="col-4">
+                <div class="filterDiv clean">
+                    <div class="card bg-primary portofolio">
+                        <a href="#"><img src="assets/porto8.jpg" height="200" class="card-img-top img-hover" alt=""></a>
+                        <div class="card-body bg-dark2">
+                            <p class="card-text text-light" align="justify">
+                                Apakah Anda memiliki binatang peliharaan di rumah? Jika iya, sebuah tantangan bagi orang yang 
+                                memiliki binatang peliharaan di rumah agar huniannya tidak menimbulkan aroma atau bau tak sedap. 
+                                Salah satu cara agar rumah tidak bau adalah dengan menggunakan baking soda.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>            
+        <div class="row">
+            <div class="col-4">
+			<div class="filterDiv health">
+                <div class="card bg-primary portofolio">
+                    <a href="#"><img src="assets/porto5.jpg" height="200" class="card-img-top img-hover" alt=""></a>
+                    <div class="card-body bg-dark2">
+                        <p class="card-text text-light" align="justify">
+                            Kucing adalah binatang karnivora murni, artinya kebutuhan makanannya semuanya didapat dari daging. 
+                            Makanan terbaik bagi kucing adalah makanan yang alami, yang bisa kita penuhi dengan membuat sendiri 
+                            dari daging (ikan, ayam, kalkun, dsb) dengan tambahan vitamin. Akan tetapi sering kita dihadapkan dengan 
+                            kendala waktu dan tenaga yang terbatas. Selain itu home made cat food tidak bisa disimpan terlalu lama yang 
+                            akan mengakibatkan rusaknya nutrisi dan resiko terinfeksi bakteri.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-4">
+			<div class="filterDiv health">
+                <div class="card bg-primary portofolio">
+                    <a href="#"><img src="assets/porto9.jpg" height="200" class="card-img-top img-hover" alt=""></a>
+                    <div class="card-body bg-dark2">
+                        <p class="card-text text-light" align="justify">
+                            Vaksinasi merupakan salah satu tindakan pencegahan agar hewan kesayangan tidak sakit. Tujuannya untuk memberikan 
+                            kekebalan pada tubuh dan melindunginya terhadap beberapa penyakit tertentu, karena ada yang bisa berakibat fatal atau mematikan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+			</div>
+            <div class="col-4">
+			<div class="filterDiv health">
+                <div class="card bg-primary portofolio">
+                    <a href="#"><img src="assets/porto6.jpg" height="200" class="card-img-top img-hover" alt=""></a>
+                    <div class="card-body bg-dark2">
+                        <p class="card-text text-light" align="justify">
+                            Makanan hewan menjadi faktor penting penentu kerontokan bulu. Cara mengatasi bulu kucing dan anjing rontok 
+                            dari aspek nutrisi adalah memberikan makanan anjing yang mengandung asam lemak, karena anjing tidak bisa 
+                            memproduksi asam lemak sendiri. Asam lemak bermanfaat untuk menjaga kulit serta bulu tetap sehat serta manfaat 
+                            kesehatan lainnya.
+                        </p>
+                    </div>
+                </div>
+            </div>
+			</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer bg-dark2">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="footer-text text-light">
+                        <h3>CONTACT INFO</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/address.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light">Jl. Halim Perdana Kusuma, Jakarta Timur</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/email.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light">suksespets@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/phone.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light">+62 818-0876-7894</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <div class="footer-text text-light">
+                    </div>
+                    <p class="text-light">
+                        <b>Your Trust is Our Responsibility</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <p class="text-light footer-text2 text-center">&copy; Copyright - Tito Pamungkas 2020</p>
+        </div>
+    </div>
+</body>
+<script src="js/scriptPort.js"></script>
+</html>
