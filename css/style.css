@@ -1,0 +1,388 @@
+.navbar-brand {
+    font-size: 32px;
+    margin-left: 12px;
+}
+
+.nav-link {
+    margin-left: 30px;
+}
+
+.nav-link:hover, .active {
+    background-color: rgb(212, 211, 211);
+    margin-bottom: -3px;
+}
+
+.border-company {
+    background-color: rgb(202, 202, 202);
+}
+
+.carousel-caption {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.text-carousel-1 {
+    font-size: 52px;
+    background-color: rgb(212, 211, 211);
+    margin-right: 150px;
+    margin-left: 35px;
+}
+
+.text-carousel-2 {
+    font-size: 48px;
+    background-color:rgb(212, 211, 211);
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+
+.text-carousel-3 {
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img-hover:hover{
+    background-color: honeydew;
+}
+
+.garis {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.text-margin {
+    margin-bottom: 50px;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+}
+
+.footer2 {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(99, 83, 99);
+}
+
+.blur {
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.footer-text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-text2 {
+    margin-top: 10px;
+}
+
+.portofolio {
+    width: 100%;
+    margin-bottom: 50px;
+    height: 80%;
+}
+
+.box-blog {
+    margin-top: 20px;
+    width: 93%;
+    height: 300px;
+    position: absolute;
+}
+
+.box-blog-text {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.box-blog-text-header {
+    margin-bottom: 30px;
+}
+
+.mrgn-left {
+    margin-left: 10px;
+}
+
+.mrgn-bottom {
+    margin-bottom: 20px;
+}
+
+.map {
+    margin-bottom: 50px;
+}
+
+.todos-input {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.service{
+    background-color: #f9f9f9;
+}
+
+.boxindex{
+border: 1px solid;
+color: rgb(34, 44, 34)
+}
+
+.boxindex:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.boxindex .col-4{
+    width:25%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid;
+    text-align: center;
+    float: left;
+}
+
+.iconindex{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.boxindex .col-4 h4{
+    margin: 20px  0;
+}
+
+  .filterDiv {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn1 {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    background-color: #ddd;
+  }
+
+  .galeri{
+    width:90%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.galeri .foto img{ 
+    width: 400px;
+}
+
+.foto {
+    margin:20px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.foto a{
+    border: 1px solid rgb(94, 29, 94);
+    padding:10px;
+    color:white;
+    background:rgb(94, 29, 94);
+    text-decoration: none;
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+.foto img{
+    width: 300px;
+    height: 300px;
+}
+
+.teams{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.team{
+    flex-basis: 260px;   
+}
+
+.team .team-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.team:hover .team-img{
+    filter: grayscale(0);
+}
+
+.user-name{
+    margin-top: 30px;
+    font-size: 35px;
+    color: rgb(179, 178, 178);
+}
+
+.team h4{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: rgb(154, 121, 187);
+}
+
+.bg-dark2 {
+    background-color:rgb(212, 211, 211);
+  }
+
+a.bg-dark2:hover, a.bg-dark2:focus,
+button.bg-dark2:hover,
+button.bg-dark2:focus {
+  background-color:rgb(59, 47, 59);
+}
+
+.bg-success2 {
+    background-color: grey;
+  }
+  
+a.bg-success2:hover, a.bg-success2:focus,
+button.bg-success2:hover,
+button.bg-success2:focus {
+    background-color: rgb(121, 103, 121);
+  }
+
+.btn-success2 {
+    color: #fff;
+    background-color: rgb(212, 211, 211);
+    border-color: grey;
+  }
+  
+.btn-success2:hover {
+    color: #fff;
+    background-color: rgb(141, 116, 141);
+    border-color: grey;
+}
+  
+.btn-success2:focus, .btn-success2.focus {
+    color: #fff;
+    background-color: rgb(141, 116, 141);
+    border-color: (212, 211, 211);
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: grey;
+    border-color: grey;
+  }
+  
+  .btn-warning:hover {
+    color: #ffffff;
+    background-color: grey;
+    border-color: grey;
+  }
+
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel-item {
+	color: black;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .carousel-control {
+	width: 10px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+
+.containergaleri {
+    width: 810px;
+    margin: 10px auto;
+    border: 5px solid white;
+    overflow: auto;
+}
+
+.thumb {
+    width: 200px;
+    float: left;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+
+.thumb:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@keyframes fadee {
+    to{
+        opacity: 1;
+    }
+}
+
+.fadee {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+ .activee{
+    opacity: 0.5;
+ }
